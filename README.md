@@ -1,4 +1,4 @@
-#<center> Conway's Way of Life<center>
+# <center>Conway's Way of Life<center>
 ********
 **Rules:**
 ----
@@ -12,7 +12,7 @@ population.
 * Any dead cell with exactly three live neighbors becomes a live cell, because of
 reproduction.
 
-**How to run the code:**
+## How to run the code:
 ---
 1. Install _numpy :_
 
@@ -23,34 +23,34 @@ reproduction.
 3. Sample input command :
 	
 		C:\Users\Mohneesh\Desktop\Assignment>wayoflife_mohneesh.py -f matrix.txt
-__or__  
-	
+__or__  	
+		
 		C:\Users\Mohneesh\Desktop\Assignment>wayoflife_mohneesh.py --file matrix.txt
-##Visualizing More Than One Generation
+## Visualizing More Than One Generation
 
 **Simply modify the number of generations you want in the for loop at line 54**
 
 
-##Inputs and Expected Outputs
+## Inputs and Expected Outputs
 
-####input 1						
+#### input 1						
 **010**  
 **111**  
 **010** 
 
-####output 1
+#### output 1
 **111**  
 **101**  
 **111**
 
-####input 2
+#### input 2
 **00000**  
 **01110**  
 **01110**  
 **01110**  
 **00000**  
 
-####output 2
+#### output 2
 **00100**  
 **01010**  
 **10001**  
